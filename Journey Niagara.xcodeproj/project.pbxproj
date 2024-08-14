@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F433D3F32C6BE2C800D0792D /* Journey_NiagaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D3F22C6BE2C800D0792D /* Journey_NiagaraApp.swift */; };
+		F433D3F72C6BE2CA00D0792D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F433D3F62C6BE2CA00D0792D /* Assets.xcassets */; };
+		F433D3FB2C6BE2CA00D0792D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F433D3FA2C6BE2CA00D0792D /* Preview Assets.xcassets */; };
+		F433D4032C6BE2F900D0792D /* RootJounerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4022C6BE2F900D0792D /* RootJounerClass.swift */; };
+		F433D4052C6BE31700D0792D /* JourneyRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4042C6BE31700D0792D /* JourneyRootView.swift */; };
+		F433D4072C6BE53400D0792D /* GaraMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4062C6BE53400D0792D /* GaraMenuView.swift */; };
+		F433D4092C6BE5B900D0792D /* NgaraViewCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4082C6BE5B900D0792D /* NgaraViewCase.swift */; };
+		F433D40B2C6BF2CA00D0792D /* HotSummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D40A2C6BF2CA00D0792D /* HotSummerView.swift */; };
+		F433D40D2C6BF2F600D0792D /* AreaHoletsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D40C2C6BF2F600D0792D /* AreaHoletsView.swift */; };
+		F433D40F2C6BF32400D0792D /* QuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D40E2C6BF32400D0792D /* QuestView.swift */; };
+		F433D4112C6BF33600D0792D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4102C6BF33600D0792D /* SettingsView.swift */; };
+		F433D4132C6BF42D00D0792D /* Ramaraja-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F433D4122C6BF42D00D0792D /* Ramaraja-Regular.ttf */; };
+		F433D4162C6BF47800D0792D /* NigBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4152C6BF47800D0792D /* NigBtn.swift */; };
+		F433D4192C6BF6DD00D0792D /* HotSummerCls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4182C6BF6DD00D0792D /* HotSummerCls.swift */; };
+		F433D41B2C6BF70A00D0792D /* HotSummerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D41A2C6BF70A00D0792D /* HotSummerInfo.swift */; };
+		F433D41F2C6BFA2500D0792D /* BekNigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D41E2C6BFA2500D0792D /* BekNigView.swift */; };
+		F433D4212C6BFBC700D0792D /* ViewInfoHo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4202C6BFBC700D0792D /* ViewInfoHo.swift */; };
+		F433D4262C6C00B000D0792D /* HotelsCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4252C6C00B000D0792D /* HotelsCases.swift */; };
+		F433D4282C6C0A7800D0792D /* MnHot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D4272C6C0A7800D0792D /* MnHot.swift */; };
+		F433D42B2C6C12AD00D0792D /* CorrectAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D42A2C6C12AD00D0792D /* CorrectAnswerView.swift */; };
+		F433D42D2C6C14CB00D0792D /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433D42C2C6C14CB00D0792D /* QuizQuestion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F433D3EF2C6BE2C800D0792D /* Journey Niagara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journey Niagara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F433D3F22C6BE2C800D0792D /* Journey_NiagaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey_NiagaraApp.swift; sourceTree = "<group>"; };
+		F433D3F62C6BE2CA00D0792D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F433D3F82C6BE2CA00D0792D /* Journey_Niagara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Journey_Niagara.entitlements; sourceTree = "<group>"; };
+		F433D3FA2C6BE2CA00D0792D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F433D4022C6BE2F900D0792D /* RootJounerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootJounerClass.swift; sourceTree = "<group>"; };
+		F433D4042C6BE31700D0792D /* JourneyRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyRootView.swift; sourceTree = "<group>"; };
+		F433D4062C6BE53400D0792D /* GaraMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaraMenuView.swift; sourceTree = "<group>"; };
+		F433D4082C6BE5B900D0792D /* NgaraViewCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgaraViewCase.swift; sourceTree = "<group>"; };
+		F433D40A2C6BF2CA00D0792D /* HotSummerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSummerView.swift; sourceTree = "<group>"; };
+		F433D40C2C6BF2F600D0792D /* AreaHoletsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaHoletsView.swift; sourceTree = "<group>"; };
+		F433D40E2C6BF32400D0792D /* QuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestView.swift; sourceTree = "<group>"; };
+		F433D4102C6BF33600D0792D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F433D4122C6BF42D00D0792D /* Ramaraja-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ramaraja-Regular.ttf"; sourceTree = "<group>"; };
+		F433D4142C6BF43A00D0792D /* Journey-Niagara-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Journey-Niagara-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F433D4152C6BF47800D0792D /* NigBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NigBtn.swift; sourceTree = "<group>"; };
+		F433D4182C6BF6DD00D0792D /* HotSummerCls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSummerCls.swift; sourceTree = "<group>"; };
+		F433D41A2C6BF70A00D0792D /* HotSummerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotSummerInfo.swift; sourceTree = "<group>"; };
+		F433D41E2C6BFA2500D0792D /* BekNigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BekNigView.swift; sourceTree = "<group>"; };
+		F433D4202C6BFBC700D0792D /* ViewInfoHo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInfoHo.swift; sourceTree = "<group>"; };
+		F433D4252C6C00B000D0792D /* HotelsCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsCases.swift; sourceTree = "<group>"; };
+		F433D4272C6C0A7800D0792D /* MnHot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnHot.swift; sourceTree = "<group>"; };
+		F433D42A2C6C12AD00D0792D /* CorrectAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectAnswerView.swift; sourceTree = "<group>"; };
+		F433D42C2C6C14CB00D0792D /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F433D3EC2C6BE2C800D0792D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F433D3E62C6BE2C800D0792D = {
+			isa = PBXGroup;
+			children = (
+				F433D3F12C6BE2C800D0792D /* Journey Niagara */,
+				F433D3F02C6BE2C800D0792D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F433D3F02C6BE2C800D0792D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F433D3EF2C6BE2C800D0792D /* Journey Niagara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F433D3F12C6BE2C800D0792D /* Journey Niagara */ = {
+			isa = PBXGroup;
+			children = (
+				F433D4292C6C0FCB00D0792D /* Quiz */,
+				F433D4242C6C008D00D0792D /* AreaHotels */,
+				F433D4172C6BF6C900D0792D /* HotSuumer */,
+				F433D4142C6BF43A00D0792D /* Journey-Niagara-Info.plist */,
+				F433D4122C6BF42D00D0792D /* Ramaraja-Regular.ttf */,
+				F433D4012C6BE2D400D0792D /* RootJourney */,
+				F433D3F22C6BE2C800D0792D /* Journey_NiagaraApp.swift */,
+				F433D3F62C6BE2CA00D0792D /* Assets.xcassets */,
+				F433D3F82C6BE2CA00D0792D /* Journey_Niagara.entitlements */,
+				F433D3F92C6BE2CA00D0792D /* Preview Content */,
+				F433D4062C6BE53400D0792D /* GaraMenuView.swift */,
+				F433D4082C6BE5B900D0792D /* NgaraViewCase.swift */,
+				F433D4102C6BF33600D0792D /* SettingsView.swift */,
+				F433D4152C6BF47800D0792D /* NigBtn.swift */,
+				F433D41E2C6BFA2500D0792D /* BekNigView.swift */,
+			);
+			path = "Journey Niagara";
+			sourceTree = "<group>";
+		};
+		F433D3F92C6BE2CA00D0792D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F433D3FA2C6BE2CA00D0792D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F433D4012C6BE2D400D0792D /* RootJourney */ = {
+			isa = PBXGroup;
+			children = (
+				F433D4022C6BE2F900D0792D /* RootJounerClass.swift */,
+				F433D4042C6BE31700D0792D /* JourneyRootView.swift */,
+			);
+			path = RootJourney;
+			sourceTree = "<group>";
+		};
+		F433D4172C6BF6C900D0792D /* HotSuumer */ = {
+			isa = PBXGroup;
+			children = (
+				F433D40A2C6BF2CA00D0792D /* HotSummerView.swift */,
+				F433D4182C6BF6DD00D0792D /* HotSummerCls.swift */,
+				F433D41A2C6BF70A00D0792D /* HotSummerInfo.swift */,
+				F433D4202C6BFBC700D0792D /* ViewInfoHo.swift */,
+			);
+			path = HotSuumer;
+			sourceTree = "<group>";
+		};
+		F433D4242C6C008D00D0792D /* AreaHotels */ = {
+			isa = PBXGroup;
+			children = (
+				F433D40C2C6BF2F600D0792D /* AreaHoletsView.swift */,
+				F433D4252C6C00B000D0792D /* HotelsCases.swift */,
+				F433D4272C6C0A7800D0792D /* MnHot.swift */,
+			);
+			path = AreaHotels;
+			sourceTree = "<group>";
+		};
+		F433D4292C6C0FCB00D0792D /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				F433D40E2C6BF32400D0792D /* QuestView.swift */,
+				F433D42A2C6C12AD00D0792D /* CorrectAnswerView.swift */,
+				F433D42C2C6C14CB00D0792D /* QuizQuestion.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F433D3EE2C6BE2C800D0792D /* Journey Niagara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F433D3FE2C6BE2CA00D0792D /* Build configuration list for PBXNativeTarget "Journey Niagara" */;
+			buildPhases = (
+				F433D3EB2C6BE2C800D0792D /* Sources */,
+				F433D3EC2C6BE2C800D0792D /* Frameworks */,
+				F433D3ED2C6BE2C800D0792D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Journey Niagara";
+			productName = "Journey Niagara";
+			productReference = F433D3EF2C6BE2C800D0792D /* Journey Niagara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F433D3E72C6BE2C800D0792D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F433D3EE2C6BE2C800D0792D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F433D3EA2C6BE2C800D0792D /* Build configuration list for PBXProject "Journey Niagara" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F433D3E62C6BE2C800D0792D;
+			productRefGroup = F433D3F02C6BE2C800D0792D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F433D3EE2C6BE2C800D0792D /* Journey Niagara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F433D3ED2C6BE2C800D0792D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F433D4132C6BF42D00D0792D /* Ramaraja-Regular.ttf in Resources */,
+				F433D3FB2C6BE2CA00D0792D /* Preview Assets.xcassets in Resources */,
+				F433D3F72C6BE2CA00D0792D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F433D3EB2C6BE2C800D0792D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F433D42D2C6C14CB00D0792D /* QuizQuestion.swift in Sources */,
+				F433D4072C6BE53400D0792D /* GaraMenuView.swift in Sources */,
+				F433D40B2C6BF2CA00D0792D /* HotSummerView.swift in Sources */,
+				F433D41F2C6BFA2500D0792D /* BekNigView.swift in Sources */,
+				F433D3F32C6BE2C800D0792D /* Journey_NiagaraApp.swift in Sources */,
+				F433D4162C6BF47800D0792D /* NigBtn.swift in Sources */,
+				F433D4192C6BF6DD00D0792D /* HotSummerCls.swift in Sources */,
+				F433D4112C6BF33600D0792D /* SettingsView.swift in Sources */,
+				F433D40D2C6BF2F600D0792D /* AreaHoletsView.swift in Sources */,
+				F433D4032C6BE2F900D0792D /* RootJounerClass.swift in Sources */,
+				F433D4212C6BFBC700D0792D /* ViewInfoHo.swift in Sources */,
+				F433D4092C6BE5B900D0792D /* NgaraViewCase.swift in Sources */,
+				F433D42B2C6C12AD00D0792D /* CorrectAnswerView.swift in Sources */,
+				F433D4052C6BE31700D0792D /* JourneyRootView.swift in Sources */,
+				F433D4282C6C0A7800D0792D /* MnHot.swift in Sources */,
+				F433D41B2C6BF70A00D0792D /* HotSummerInfo.swift in Sources */,
+				F433D40F2C6BF32400D0792D /* QuestView.swift in Sources */,
+				F433D4262C6C00B000D0792D /* HotelsCases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F433D3FC2C6BE2CA00D0792D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F433D3FD2C6BE2CA00D0792D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F433D3FF2C6BE2CA00D0792D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Journey Niagara/Journey_Niagara.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Journey Niagara/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Journey-Niagara-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Journey-Niagara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F433D4002C6BE2CA00D0792D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Journey Niagara/Journey_Niagara.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Journey Niagara/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Journey-Niagara-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Journey-Niagara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F433D3EA2C6BE2C800D0792D /* Build configuration list for PBXProject "Journey Niagara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F433D3FC2C6BE2CA00D0792D /* Debug */,
+				F433D3FD2C6BE2CA00D0792D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F433D3FE2C6BE2CA00D0792D /* Build configuration list for PBXNativeTarget "Journey Niagara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F433D3FF2C6BE2CA00D0792D /* Debug */,
+				F433D4002C6BE2CA00D0792D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F433D3E72C6BE2C800D0792D /* Project object */;
+}
